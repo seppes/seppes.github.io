@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MT {
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding-top: 5.7em;
+    padding-bottom: 1.875em;
+}
+
+.row, .card-deck{
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.card-body  img{
+    border:8px solid white;
+    border-radius: 20px;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.card-body  img:hover {
+    opacity: 1;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.card{
+    border: none;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.round{
+    border-radius: 60px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.btn-outline-dark{
+    background-color: black;
+    color: white;
+}
+
+.bg-dark{
+    background-color: black !important;
+    color: white ;
+}
+
+.dropdownN{
+    color: grey;
+    background-color: black;
+    border-width: thin;
+    border-color: grey;
+}
+
+.maps{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 0) {
+    .card-deck .card {
+        flex: 0 0 calc(100% - 30px);
+    }
+}
+@media (min-width: 576px) {
+    .card-deck .card {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+@media (min-width: 768px) {
+    .card-deck .card {
+        flex: 0 0 calc(33.3333333333% - 30px);
+    }
+}
+
+.btn.acc:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    color: black;
+}
